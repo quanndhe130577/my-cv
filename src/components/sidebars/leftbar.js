@@ -20,7 +20,8 @@ export default class LeftBar extends React.Component {
         return (
             <div className="h-100 position-relative">
                 <div className="p-4 text-center justify-items-center position-relative avatar">
-                    <img src={this.state.isRealAvatar ? "https://i.imgur.com/45qbwq3.jpg" : "https://i.imgur.com/NwyqlNU.jpg"} alt="avatar" className="hoverable object-fit-cover rounded-circle shadow" width="165" height="160" onClick={this.changeAvatar} />
+                    {/* <img src={this.state.isRealAvatar ? "https://i.imgur.com/NwyqlNU.jpg" : "https://i.imgur.com/45qbwq3.jpg"} alt="avatar" className="hoverable object-fit-cover rounded-circle shadow" width="165" height="160" onClick={this.changeAvatar} /> */}
+                    <img src={this.state.isRealAvatar ? "https://i.imgur.com/0UsUl1m.jpg" : "https://i.imgur.com/Qz92Qnj.jpg"} alt="avatar" className="hoverable object-fit-cover rounded-circle shadow" width="165" height="160" onClick={this.changeAvatar} />
                     <div className="swich-avatar text-danger">
                         <AiOutlineRetweet />
                     </div>

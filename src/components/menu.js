@@ -7,17 +7,17 @@ export default class Menu extends React.Component {
     render() {
         return (
             <nav className="nav flex-column h-100 text-center">
-                <Link className="nav-link py-4 active" to="/">
-                    <IconContext.Provider value={{ className: "icon-2x" }}>
+                <Link className="nav-link py-4 active" to="/" data-toggle="tooltip" data-placement="right" title="Content">
+                    <IconContext.Provider value={{ className: "icon-2x" }} >
                         <RiReactjsLine className="icon-2x" />
                     </IconContext.Provider>
                 </Link>
-                <Link className="nav-link py-4" to="/app">
+                <Link className="nav-link py-4" to="/app" data-toggle="tooltip" data-placement="right" title="Application">
                     <IconContext.Provider value={{ className: "icon-2x" }}>
                         <RiAppsLine />
                     </IconContext.Provider>
                 </Link>
-                <Link className="nav-link py-4" to="/task">
+                <Link className="nav-link py-4" to="/task" data-toggle="tooltip" data-placement="right" title="Task">
                     <IconContext.Provider value={{ className: "icon-2x" }}>
                         <RiTaskLine />
                     </IconContext.Provider>
