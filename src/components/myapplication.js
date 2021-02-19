@@ -7,7 +7,7 @@ export default class MyApplication extends React.Component {
             <div>
                 <h1 className="h2">My Application</h1>
                 <div>
-                    You can see my most project created by me on <a href="https://github.com/quanndhe130577">GITHUB <RiExternalLinkLine/></a> <i>(exclude private)</i>
+                    You can see my most project created by me on <a href="https://github.com/quanndhe130577" target="_blank" rel="noopener noreferrer">GITHUB <RiExternalLinkLine/></a> <i>(exclude private)</i>
                 </div>
                 {/* <div className="font-weight-bold mt-3">Live project</div>
                 <div className="mt-2">
