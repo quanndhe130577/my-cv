@@ -1,0 +1,54 @@
+$text-dark: #172b4d;
+body {
+    color: $text-dark;
+}
+a, .btn-link {
+  color: $text-dark;
+}
+.icon-2x {
+    font-size: 2rem;
+}
+.object-fit-cover {
+    object-fit: cover;
+}
+.icon-1r {
+    font-size: 1.5rem;
+}
+.hoverable {
+    cursor: pointer;
+}
+.hoverable:hover, .toggle-persional-info:hover {
+    color: darkblue;
+}
+.border-bottom-dashed {
+    border-bottom: 1px dashed #d1d1d1;
+}
+.dark-theme {
+    filter: invert(1) hue-rotate(180deg);
+}
+.dark-theme img {
+    filter: invert(1) hue-rotate(180deg);
+}
+.btn:focus {
+    box-shadow: none;
+}
+.toggle-persional-info {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 1.5rem;
+    margin-right: -1.7rem;
+    background: white;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+.swich-avatar {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0;
+    display: none;
+    top: 0;
+}
+.avatar:hover .swich-avatar {
+    display: block;
+}
