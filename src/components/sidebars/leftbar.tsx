@@ -59,13 +59,13 @@ export default class LeftBar extends React.Component<any, ILeftBarState> {
                         Email
           </div>
                     <div className="font-weight-bold">
-                        <a href="javascript:;">quanndhe130577@fpt.edu.vn</a>
+                        <a href="@gmail.com">quanndhe130577@fpt.edu.vn</a>
                     </div>
                     <div className="text-muted mt-3">
                         Phone
                     </div>
                     <div className="font-weight-bold">
-                        <a href="javascript:;">(+84) 966 848 112</a>
+                        <a href="@tele.com">(+84) 966 848 112</a>
                     </div>
                     <div className="text-muted mt-3">
                         Date Of Birth

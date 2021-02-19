@@ -1,10 +1,10 @@
 ### Live Demo
 
-[https://f7deat.github.io/cv](https://f7deat.github.io/cv)
+[https://ren572-my-cv.netlify.app/](https://ren572-my-cv.netlify.app/)
 
 ### Screenshoot
 
-![f7deat cv](https://i.imgur.com/sRM83kT.png)
+![quanndhe130577 my-cv](https://i.imgur.com/WpYVqJ5.png)
 
 ### Package
 
@@ -14,10 +14,6 @@
 - [JQuery](https://jquery.com/)
 - [React-Router-DOM](https://reactrouter.com/web/guides/quick-start)
 
-### Sponsor
-
-Give me a coffee: [Paypal](https://www.paypal.com/paypalme/f7deat)
-
 
 ### Deploy to Github page
 
@@ -25,4 +21,4 @@ Give me a coffee: [Paypal](https://www.paypal.com/paypalme/f7deat)
 - npm run deploy
 
 ### Resource
-[https://f7deat.github.io/cv](https://f7deat.github.io/cv)
+[from https://f7deat.github.io/cv](https://f7deat.github.io/cv)
