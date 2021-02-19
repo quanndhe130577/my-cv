@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Company extends React.Component<any> {
+export default class Company extends React.Component {
     render() {
         return (
             <div className="card mb-3 border-0">

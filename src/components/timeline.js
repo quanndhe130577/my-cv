@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/timeline.scss';
+import '../css/timeline.css';
 
 export default class TimeLine extends React.Component {
     render() {
@@ -10,10 +10,10 @@ export default class TimeLine extends React.Component {
                         High school
                     </div>
                     <div className="timeline-body">
-                        <div className="pb-2 font-weight-bold" style={{fontSize:'1.2rem'}}>2014</div>
+                        <div className="pb-2 font-weight-bold" style={{ fontSize: '1.2rem' }}>2014</div>
                         <div className="mt-2">
                             <a href="https://hsgs.edu.vn/" rel="noopener noreferrer" target="_blank">Hight School for Gifted Student</a>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -22,9 +22,9 @@ export default class TimeLine extends React.Component {
                         University
                     </div>
                     <div className="timeline-body">
-                        <div className="pb-2 font-weight-bold" style={{fontSize:'1.2rem'}}>2017</div>
+                        <div className="pb-2 font-weight-bold" style={{ fontSize: '1.2rem' }}>2017</div>
                         <div className="mt-2">
-                            <a href="https://daihoc.fpt.edu.vn/" rel="noopener noreferrer" target="_blank">FPT University</a>                     
+                            <a href="https://daihoc.fpt.edu.vn/" rel="noopener noreferrer" target="_blank">FPT University</a>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ export default class TimeLine extends React.Component {
                         Other
                     </div>
                     <div className="timeline-body">
-                        <div className="pb-2 font-weight-bold" style={{fontSize:'1.2rem'}}>2020</div>
+                        <div className="pb-2 font-weight-bold" style={{ fontSize: '1.2rem' }}>2020</div>
                         <div className="mt-2">
                             <a href="http://e-solutions.com.vn/" rel="noopener noreferrer" target="_blank">E-Solutions</a>
                         </div>

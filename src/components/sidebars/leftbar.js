@@ -1,10 +1,9 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook, AiFillTwitterCircle, AiOutlineMinusCircle, AiOutlineRetweet } from "react-icons/ai";
 import { IconContext } from "react-icons";
-import { ILeftBarState } from '../../interfaces/myState';
 
-export default class LeftBar extends React.Component<any, ILeftBarState> {
-    constructor(props: any) {
+export default class LeftBar extends React.Component {
+    constructor(props) {
         super(props);
         this.state = {
             isRealAvatar: false

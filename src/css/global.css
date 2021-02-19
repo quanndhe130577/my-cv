@@ -1,9 +1,9 @@
-$text-dark: #172b4d;
+
 body {
-    color: $text-dark;
+    color: #172b4d;
 }
 a, .btn-link {
-  color: $text-dark;
+  color: #172b4d;
 }
 .icon-2x {
     font-size: 2rem;

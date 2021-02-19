@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/app.scss';
+import './css/app.css';
 import Navbar from './components/navbar';
 import Menu from './components/menu';
 import RightBar from './components/sidebars/rightbar';
